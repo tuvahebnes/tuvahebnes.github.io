@@ -1,0 +1,14 @@
+div p span {
+    color: red;
+}
+
+div div :nth-child(2) {
+    color: red;
+}
+
+div div ::first-letter {
+    color: green;
+    font-size: 2em;
+    font-family: "Aguafina Script", cursive;
+    margin-right: 2px;
+}

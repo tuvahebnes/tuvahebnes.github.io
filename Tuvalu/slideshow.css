@@ -1,0 +1,24 @@
+: root {
+    --bakgrunn: blue;
+}
+
+#slideshow {
+    background: url("bilder/kano.png");
+    position: relative;
+    left: 2em;
+    top: 2em;
+    width: calc(50% - 4em);
+    height: calc(50% - 4em);
+    border: 5px solid gray;
+    border-radius: 30em;
+    background-color: var(--bakgrunn);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: slideshow 2s steps(1) infinite;
+}
+
+@keyframes slideshow {
+    0% {background-image: url("bilder/dancers.jpg")}
+    50% {background-image: url("bilder/kids.jpg")}
+}
