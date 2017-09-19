@@ -113,8 +113,8 @@ body {
     margin-right: 20px;
     position: absolute;
     text-decoration: none;
-    left: 24%;
-    top: 85%;
+    right: 60px;
+    top: 580px;
 }
 
 #bildestripe2 {
@@ -122,8 +122,8 @@ body {
     margin-right: 20px;
     position: absolute;
     text-decoration: none;
-    left: 24%;
-    top: 130%;
+    right: 60px;
+    top: 850px;
 }
 
 #bunn {
@@ -175,5 +175,5 @@ th, td {
 }
 
 th {
-    background: #99E0FF;
+    background: #75aadb;
 }   

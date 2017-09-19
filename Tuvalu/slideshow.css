@@ -7,10 +7,10 @@
     position: relative;
     left: 2em;
     top: 2em;
-    width: calc(50% - 4em);
-    height: calc(50% - 4em);
-    border: 5px solid gray;
-    border-radius: 30em;
+    width: calc(90% - 4em);
+    height: calc(90% - 4em);
+    border: 2px solid #183468;
+    border-radius: 2em;
     background-color: var(--bakgrunn);
     background-repeat: no-repeat;
     background-size: cover;
