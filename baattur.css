@@ -1,10 +1,10 @@
-#flaggpng {
+#storm {
     position: absolute;
     left: 0;
     top: 0;
-    width: 90px;
-    height: 90px;
-    background: url("bilder/boat.png");
+    width: 70px;
+    height: 70px;
+    background: url("bilder/rain.png");
     background-size: contain;
     background-repeat: no-repeat;
     animation: gaaTur 5s linear infinite;

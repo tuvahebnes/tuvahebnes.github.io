@@ -114,7 +114,7 @@ body {
     position: absolute;
     text-decoration: none;
     right: 60px;
-    top: 580px;
+    top: 300px;
 }
 
 #bildestripe2 {
@@ -123,7 +123,7 @@ body {
     position: absolute;
     text-decoration: none;
     right: 60px;
-    top: 850px;
+    top: 550px;
 }
 
 #bunn {
@@ -146,7 +146,7 @@ body {
 #video1 {
     position: absolute;
     right: 6%;
-    top: 42%;
+    top: 0;
 }
 
 #øyene {
