@@ -1,0 +1,58 @@
+#klage {
+    position: absolute;
+    top: 1px;
+    right: 5px;
+    width: 160px;
+    height: 40px;
+    font-size: 1.2em;
+    color: white;
+    background-color: rgba(55, 111, 187, 0.94);
+    border: 1px solid #5C5C5C;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(87, 88, 88, 0.7);
+    outline: none;
+}
+
+#klage:hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #EC5151;
+    color: #FFFFFF;
+    animation: stikkav 100ms;
+    animation-fill-mode: forwards;
+}
+
+#klage:active {
+    transform: translate(3px,3px);
+    box-shadow: none;
+    
+}
+
+@keyframes stikkav {
+    0% {top: 40px; left: 0;}
+    100% {top: 500px; left: 500px;}
+}
+
+
+
+#heart {
+    width: 20em;
+    height: 20em;
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+    transition: 0.4s;
+    animation: heart 
+}
+
+#heart:hover {
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+    width: 15em;
+    height: 15em;
+    
+}
