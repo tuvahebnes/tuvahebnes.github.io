@@ -15,10 +15,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    animation: slideshow 2s steps(1) infinite;
+    animation: slideshow 5s steps(1) infinite;
 }
 
 @keyframes slideshow {
     0% {background-image: url("bilder/dancers.jpg")}
-    50% {background-image: url("bilder/kids.jpg")}
+    25% {background-image: url("bilder/kids.jpg")}
+    50% {background-image: url("bilder/palmer.jpg")}
+    75% {background-image: url("bilder/please.jpg")}
 }

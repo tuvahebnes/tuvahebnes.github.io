@@ -21,7 +21,7 @@
     left: 0;
     background-color: #EC5151;
     color: #FFFFFF;
-    animation: stikkav 100ms;
+    animation: stikkav 2s;
     animation-fill-mode: forwards;
 }
 
@@ -32,27 +32,8 @@
 }
 
 @keyframes stikkav {
-    0% {top: 40px; left: 0;}
+    0% {top: 1px; right: 5px;}
+    25% {top: 50px; right: 500px;}
     100% {top: 500px; left: 500px;}
 }
 
-
-
-#heart {
-    width: 20em;
-    height: 20em;
-    position: absolute;
-    left: 100px;
-    bottom: 100px;
-    transition: 0.4s;
-    animation: heart 
-}
-
-#heart:hover {
-    position: absolute;
-    left: 100px;
-    bottom: 100px;
-    width: 15em;
-    height: 15em;
-    
-}
