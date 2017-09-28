@@ -1,0 +1,20 @@
+.heartbeat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .heartpng {
+    position: absolute;
+    margin: 5em;
+    width: 300px;
+    top: 100px;
+    animation: .8s infinite beatHeart;
+  }
+  
+  @keyframes beatHeart {
+    0% {top: 10%; left: 30%; transform: scale(1);}
+    25% {top: 10%; left: 30%; transform: scale(1.1);}
+    40% {top: 10%; left: 30%; transform: scale(1);}
+    60% {top: 10%; left: 30%; transform: scale(1.1);}
+    100% {top: 10%; left: 30%; transform: scale(1);}
+  }
