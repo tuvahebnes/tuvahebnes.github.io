@@ -11,9 +11,9 @@
 }
 
 @keyframes kanotur {
-    0% {top:210px; left:1%; transform: rotateY(0deg);}
-    49% {top:210px; left:90%; transform: rotateY(0deg);}
-    50% {top:210px; left:90%; transform: rotateY(180deg);}
-    99% {top:210px; left:1%; transform: rotateY(180deg);}
-    100% {top:210px; left:1%; transform: rotateY(0deg);}
+    0% {top:150px; left:1%; transform: rotateY(0deg);}
+    49% {top:150px; left:90%; transform: rotateY(0deg);}
+    50% {top:150px; left:90%; transform: rotateY(180deg);}
+    99% {top:150px; left:1%; transform: rotateY(180deg);}
+    100% {top:150px; left:1%; transform: rotateY(0deg);}
 }
