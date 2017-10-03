@@ -88,7 +88,7 @@ body {
 
 #innhold div {
     padding-left: 40px;
-    padding-top: 40px;
+    padding-top: 30px;
     font-size: 1.1em;
 }
 
@@ -96,6 +96,10 @@ body {
     line-height: 1.5em;
 }
 
+#innhold pre {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
 
 #bildestripe1 {
     display: inline;
@@ -138,7 +142,7 @@ body {
 #video1 {
     position: absolute;
     right: 6%;
-    top: 0;
+    top: 20px;
 }
 
 #øyene {
