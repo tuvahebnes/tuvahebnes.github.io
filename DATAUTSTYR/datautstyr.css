@@ -1,0 +1,103 @@
+#body {
+    overflow: scroll;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#main div {
+    background: #FFFFFF;
+    width: 25em;
+    height: 20em;
+    margin: 1.5em;
+   
+}
+
+#tittel {
+    position: absolute;
+    left: 0;
+    top: -5%;
+    width: 100%;
+    height: 25%;
+    font-size: 2.8em;
+    background: #FFD154;
+    color: #FFFFFF;
+    text-shadow: 3px 3px #464545;
+    padding-left: 30px;
+}
+
+#meny {
+    position: absolute;
+    left: 0;
+    top: 18%;
+    width: 20%;
+    height: 80%;
+    font-size: 1.8em;
+    background: #FFFFFF;
+}
+
+#meny li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 10px;
+    text-align: center;
+    padding-top: 6px;
+    height: 1.4em;
+    background: #60839A;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #464545;
+}
+
+#meny ul {
+    -webkit-padding-start: 0;
+}
+
+#meny li {
+    display: block;
+}
+
+#innhold {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 85%;
+    height: 80%;
+    font-family: sans-serif;
+    background: #FFFFFF;
+}
+
+#innhold div {
+    padding-left: 40px;
+    padding-top: 10px;
+    font-size: 1.1em;
+}
+
+#innhold tr {
+    border: solid 1px gray;
+    
+    font-size: 1.2em;
+}
+
+#starb {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    border: 2px solid grey;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background: #75aadb;
+}  
+
+table {
+    border-collapse: collapse;
+}
