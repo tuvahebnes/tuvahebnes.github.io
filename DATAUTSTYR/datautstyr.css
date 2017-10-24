@@ -10,7 +10,7 @@
 }
 
 #main div {
-    background: #FFFFFF;
+    background: rgb(255, 255, 255);
     width: 25em;
     height: 20em;
     margin: 1.5em;
@@ -72,8 +72,8 @@
 }
 
 #innhold div {
-    padding-left: 40px;
-    padding-top: 10px;
+    padding-left: 10px;
+    
     font-size: 1.1em;
 }
 
