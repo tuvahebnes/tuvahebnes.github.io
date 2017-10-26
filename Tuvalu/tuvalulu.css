@@ -136,7 +136,7 @@ body {
     padding: 4px;
     top: 0;
     size: 2em;
-    
+    line-height: 1.5em; 
 }
 
 #video1 {
@@ -176,3 +176,4 @@ th, td {
 th {
     background: #75aadb;
 }   
+

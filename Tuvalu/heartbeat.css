@@ -11,9 +11,9 @@
   }
   
   @keyframes beatHeart {
-    0% {top: 20%; left: 40%; transform: scale(1);}
-    25% {top: 20%; left: 40%; transform: scale(1.1);}
-    40% {top: 20%; left: 40%; transform: scale(1);}
-    60% {top: 20%; left: 40%; transform: scale(1.1);}
-    100% {top: 20%; left: 40%; transform: scale(1);}
+    0% {top: 20%; left: 55%; transform: scale(1);}
+    25% {top: 20%; left: 55%; transform: scale(1.1);}
+    40% {top: 20%; left: 55%; transform: scale(1);}
+    60% {top: 20%; left: 55%; transform: scale(1.1);}
+    100% {top: 20%; left: 55%; transform: scale(1);}
   }
