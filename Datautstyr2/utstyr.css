@@ -1,0 +1,63 @@
+body {
+    background-image: url("electronics.jpg");
+    overflow: scroll;
+}
+
+#tittel {
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+#meny li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 6px;
+    height: 1.4em;
+    background: rgb(50, 150, 204);
+    border-radius: 5px;
+    box-shadow: 4px 3px #d6d6d8;
+}
+
+#meny ul {
+    -webkit-padding-start: 0;
+}
+
+#meny li {
+    display: block;
+}
+
+#innhold div {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#main div {
+    background: white;
+    width: 40%;
+    height: 20em;
+    margin: 1.8em;
+    line-height: 1.5em;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background: #75aadb;
+}  
+
+table {
+    border-collapse: collapse;
+}
