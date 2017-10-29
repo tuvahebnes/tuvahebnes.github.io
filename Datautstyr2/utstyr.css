@@ -33,6 +33,7 @@ body {
 #innhold div {
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 30px;
 }
 
 #main {
@@ -43,11 +44,11 @@ body {
 }
 
 #main div {
-    background: white;
+    background: rgba(255, 255, 255, 0.863);
     width: 40%;
-    height: 20em;
     margin: 1.8em;
     line-height: 1.5em;
+    border-radius: 20px;
 }
 
 th, td {
@@ -60,4 +61,5 @@ th {
 
 table {
     border-collapse: collapse;
+    font-size: 0.9em;
 }
