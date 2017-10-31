@@ -55,8 +55,58 @@ body {
     color:#1545AE;
 }
 
-#nabo {
+#nabohoyre {
     position: absolute;
-    right: 40px;
-    top: 10px;
+    right: 10px;
+    bottom: 20px;
+    text-decoration: none;
+}
+
+#nabohoyre ul {
+    -webkit-padding-start: 0;
+}
+
+#nabohoyre li {
+    display: block;
+}
+
+#nabohoyre li a {
+    text-decoration: none;
+    background: pink;
+    color: rgb(250, 250, 153);
+    margin: 20px;
+    text-align: center;
+    height: 2em;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px rgba(111, 192, 212, 0.6);
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+#nabovenstre {
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+    text-decoration: none;
+}
+
+#nabovenstre ul {
+    -webkit-padding-start: 0;
+}
+
+#nabovenstreli {
+    display: block;
+}
+
+#nabovenstre li a {
+    text-decoration: none;
+    background: pink;
+    color: rgb(250, 250, 153);
+    margin: 20px;
+    text-align: center;
+    height: 2em;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px rgba(111, 192, 212, 0.6);
+    padding: 10px;
+    font-size: 1.3em;
 }
