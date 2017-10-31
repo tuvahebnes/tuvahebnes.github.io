@@ -53,3 +53,10 @@ body {
 #meny li a.showing {
     background: white;
     color:#1545AE;
+}
+
+#nabo {
+    position: absolute;
+    right: 40px;
+    top: 10px;
+}
