@@ -4,7 +4,8 @@ body {
 
 #tittel {
     position: absolute;
-    width:100%;
+    width:80%;
+    left: 10%;
     height: 20%;
     top: -5%;
     font-size: 3em;
@@ -42,4 +43,8 @@ body {
 
 #meny li {
     display: block;
+}
+
+#tilbake {
+    position: absolute;
 }
