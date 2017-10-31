@@ -46,14 +46,10 @@ body {
 }
  
 #meny li a:active {
-    transform: translate(2px,2px); 
+    transform: translate(5px,5px); 
     box-shadow: none; 
 }
  
-#meny li a.showing {
-    background: white;
-    color:#1545AE;
-}
 
 #nabohoyre {
     position: absolute;
