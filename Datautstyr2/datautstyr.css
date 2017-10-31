@@ -4,8 +4,8 @@ body {
 
 #tittel {
     position: absolute;
-    width:80%;
-    left: 10%;
+    width:100%;
+    left: 0;
     height: 20%;
     top: -5%;
     font-size: 3em;
