@@ -1,0 +1,35 @@
+:root {
+    --fyll:10px;
+}
+
+
+
+header {
+    color:rgb(0, 41, 128);
+    font-size: 1.2em;
+    padding: var(--fyll);
+    padding-bottom: 20px;
+}
+
+article {
+    font-size: 1.1em;
+    padding: var(--fyll);
+}
+
+#dyr {
+    width: 90vw;
+    min-height: 50vh;
+    border: 2px solid rgb(110, 159, 250);
+    border-radius: 10px;
+    background: whitesmoke;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.kunde {
+    padding-bottom: 10px;
+}
+
+li:nth-child(2n) {
+    color: red;
+}

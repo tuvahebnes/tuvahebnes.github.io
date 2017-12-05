@@ -1,0 +1,53 @@
+#tittel {
+    position: absolute;
+    font-size: 3em;
+    color: white;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.70);
+    background-image: url("tittel3.jpg");
+    height: 200px;
+    width: 100%;
+    top: -10px;
+    left: -10px;
+    text-align: center;
+}
+
+#innhold div {
+    width: 100%;
+    padding: 20px;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#main div {
+    background: rgb(252, 209, 130);
+    width: 30%;
+    margin-top: 185px;
+    border: grey solid 1px;
+    border-radius: 10px;
+    
+}
+
+#bestillingsskjema {
+    position: absolute;
+    bottom: 15px;
+    height: 180px;
+    width: 25%;
+    left: 40%;
+    background-image: url("back.jpg");
+    border-radius: 10px;
+}
+
+
+#skjema {
+    position: absolute;
+    padding-left: 25px;
+    padding-top: 20px;
+    top: 0;
+    size: 2em;
+    line-height: 1.5em; 
+}

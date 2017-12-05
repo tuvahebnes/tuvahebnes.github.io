@@ -7,7 +7,7 @@
     background: url("bilder/point.png");
     background-size: contain;
     background-repeat: no-repeat;
-    animation: gaaTur 8s linear infinite;
+    animation: gaaTur 8s 4s linear infinite;
 
 }
 
