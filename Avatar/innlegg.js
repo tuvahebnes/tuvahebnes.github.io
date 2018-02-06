@@ -9,26 +9,25 @@ function setup() {
         messagingSenderId: "6239923409"
     };
     firebase.initializeApp(config);
-
+    
     let divListe = document.getElementById("liste");
+
     let ref = firebase.database().ref("innlegg");
+   
 
     function visInnlegg(snapshot) {
         let innleggnr = snapshot.key;
+        let medlem = snapshot.key;
         let info = snapshot.val();
         divListe.innerHTML += `
           <div>
-            <ul>
-             <li>${info.fornavn} ${info.etternavn}
-             <li>Epost : ${info.epost}
-             <li>Mobil ${info.adresse}
-            </ul>
+            <h4>${info.fornavn} ${info.etternavn}</h4>
             ${info.melding}
           </div>
         `;
     }
+
     ref.on("child_added", visInnlegg);
 
 }
-
 

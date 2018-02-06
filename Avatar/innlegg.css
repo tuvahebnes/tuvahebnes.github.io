@@ -18,18 +18,30 @@
     text-align: center;
 }
 
+#liste div:nth-child(2n) {
+    background-color: rgb(253, 253, 154);
+}
+
+#liste div:nth-child(2n-1) {
+    background-color: rgb(252, 186, 186);
+}
+
 .innlegg {
     position: relative;
     font-size: 1.1em;
-    padding: 50px;
 }
 
 #liste {
     display: grid;
-    grid-template-columns: 300px 300px 300px 300px;
-    grid-auto-rows: 300px;
+    grid-template-columns: 500px;
+    grid-auto-rows: 120px;
     grid-column-gap: 15px;
-    grid-gap: 20px;
     width: 90vw;
     height: 50vh;
+    padding-left: 30vw;
+}
+
+h2 {
+    background-color: rgb(210, 255, 137);
+    padding: 20px;
 }
