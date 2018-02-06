@@ -1,0 +1,64 @@
+#main {
+    height: 100vh;
+}
+
+#himmel {
+    position: relative;
+    height: 60%;
+    background-color: rgb(143, 208, 238);
+}
+
+#jord {
+    position: relative;
+    height: 38%;
+    background-color: rgb(189, 152, 72);
+}
+
+#sol {
+    position: absolute;
+    top: calc(50% - 20px);
+    left: calc(50% - 20px);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: yellow;
+    animation: blink 1s alternate linear infinite;
+}
+
+@keyframes blink {
+    100% {transform: scale(0.87);}
+}
+
+#person {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    width: 112px;
+    height: 112px;
+    background-image: url("walking.png");
+    background-position-x: 0;
+    background-position-y: calc(-112px * 2);
+    animation: walk 1s steps(8) infinite;
+}
+
+@keyframes walk {
+    100% {background-position-x: calc(-112px * 8);}
+}
+
+#kaktus {
+    position: absolute;
+    opacity: 0;
+    top: 30px;
+    left: 100%;
+    width: 60px;
+    height: 70px;
+    background-image: url("kaktus.png");
+    background-size: cover;
+    transition: left 9s linear;
+    will-change: left;
+}
+
+#kaktus.ut {
+    left: -100px;
+    opacity: 1;
+}

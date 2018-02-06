@@ -1,0 +1,11 @@
+#hotell {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    background-image: url("hotell.png");
+    background-size: 15em;
+    background-repeat: no-repeat;
+}

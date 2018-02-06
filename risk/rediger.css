@@ -1,0 +1,59 @@
+#main form div {
+    width: 10em;
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    grid-gap: 1em;
+
+}
+
+#main form div div {
+    white-space: nowrap;
+}
+
+#main {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 49vw;
+}
+
+#sonic {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 49vw;
+    height: 100vh;
+}
+
+#sprite {
+    position: absolute;
+    width: 256px;
+    height: 256px;
+    left: 0px;
+    top:0px;
+    background-image: url("sprite.png");
+    background-position-x: 0px;
+    background-position-y: 0px;
+}
+
+#sprite {
+    animation: step 800ms infinite steps(6),
+    walk 3s alternate infinite linear,
+    flipper 6s infinite linear;
+}
+
+@keyframes walk {
+    0% {left: 0px; top: 0px;}
+    100% {left: 40vw; top: 80vh;}
+}
+
+@keyframes step {
+    100% {background-position-x: -1536px;}
+}
+
+@keyframes flipper {
+    0% { transform: scaleX(1);}
+    50%  { transform: scaleX(1);}
+    50.2% { transform: scaleX(-1);}
+    100% { transform: scaleX(-1);}
+}

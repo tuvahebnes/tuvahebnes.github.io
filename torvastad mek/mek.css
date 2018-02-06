@@ -1,0 +1,47 @@
+#car {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    bottom: 0;
+    left: 0;
+    background-image: url("brokencar.png");
+    background-repeat: no-repeat;
+    background-size: 20em;
+    animation: drive 7s forwards,
+               liftup 2s 7s forwards,
+               liftdown 2s 25s,
+               driveout 2s 27s;
+}
+
+#platform {
+    position: absolute;
+    width: 350px;
+    height: 10px;
+    bottom: 50px;
+    right: 50px;
+    background: grey;
+    animation: up 2s 7s forwards;
+}
+
+#mechanic {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    width: 100px;
+    background-image: url("mechanic.png");
+}
+
+@keyframes drive {
+    0% {left: 0;}
+    100% {left: 900px;}
+}
+
+@keyframes liftup {
+    0% {left: 900px; bottom: 0;}
+    100% {left: 900px; bottom: 200px;}
+}
+
+@keyframes up {
+    0% {right: 50px; bottom: 50px;}
+    100% {right: 50px; bottom: 250px;}
+}

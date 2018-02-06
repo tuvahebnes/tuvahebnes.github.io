@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/nettbutikk.css">
+    <script src="nettbutikk.js"></script>
+    <title>Hageland</title>
+</head>
+<body>
+    <div id="header">
+        <div id="medlem">
+            <a href="index.html">Tilbake</a>
+        </div>
+        
+    </div>
+    <div id="meny"></div>
+
+    <form id="skjema">
+        Kjønn
+        <select name="kjønn">
+            <option value="mann">Mann</option>
+            <option value="kvinne">Kvinne</option>
+        </select>
+
+        <br>Navn<label><input id="antall" type="text"></label>
+        <br>Adresse:<label><input id="adresse" type="text"></label>
+        <br>Betaling: <label>Visa<input name="betaling" type="radio"></label>
+        <label>Mastercard<input name="betaling" type="radio"></label>
+        <label>Bitcoin<input name="betaling" type="radio"></label>
+        <br>Er gave: <label>Ja<input name="gave" type="radio"></label>
+        <label>Nei<input name="gave" type="radio"></label>
+        
+        <br><button id="lagre" type="button">Meld meg inn</button>
+     </div>
+    
+</body>
+</html>

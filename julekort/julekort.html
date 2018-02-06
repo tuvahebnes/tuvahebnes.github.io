@@ -1,83 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="julekort.css">
+    <script src="howler.min.js"></script>
     <script src="julekort.js"></script>
-    
+
     <title>JULEKORT</title>
 </head>
-<body>
-    <div id="himmel">
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-        <div class="stjerne"></div>
-    </div>
-     
-    <div id="sno"></div>
 
-    <div id="nissen">
+<body>
+    <div id="sky">
+        <div id="santa">
         <img src="nissen.gif" width="500">
+        </div>
+        <div class="pakke"></div>
+
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+
     </div>
+
+
+    <div id="snow">
+
+    </div>
+
+    
 
     <div id="tre1">
         <img src="tree.png" height="400">
@@ -88,15 +80,24 @@
     <div id="tre3">
         <img src="tree.png" height="300">
     </div>
-    
-    <div id="snow">
+
+    <div id="snowing">
     </div>
 
     <div id="hus"></div>
-   
+
+    <div id="kanon">
+        
+    </div>
+
     <script>
+        var sound = new Howl({
+            src: ['jingle.mp3', 'howhow.mp3']
+        });
         setup();
+        sound.play();
     </script>
 
 </body>
+
 </html>

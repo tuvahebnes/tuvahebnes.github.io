@@ -1,0 +1,135 @@
+#header {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 20vh;
+    background-image: url("../bilder/hageland.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#plante {
+    position: relative;
+    font-size: 1.1em;
+    padding: 50px;
+}
+
+#liste {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-auto-rows: 300px;
+    grid-column-gap: 15px;
+    grid-gap: 20px;
+    width: 90vw;
+    height: 50vh;
+}
+
+
+
+
+#meny {
+    position: relative;
+    background-color: #69a442;
+    height: 40px;
+    top: 10px;
+
+}
+
+#grid {
+    position: relative;
+    top: 50px;
+    left: 0;
+    height: 80vh;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-auto-rows: 300px;
+    grid-column-gap: 15px;
+    grid-gap: 20px;
+}
+
+#b1 {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    background-image: url("../bilder/monstera.jpg");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 60px;
+    text-align: center;
+}
+
+#b2 {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    background-image: url("../bilder/stemor.jpg");
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position-y: 55px;
+    text-align: center;
+}
+
+#b3 {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    background-image: url("../bilder/blomsterjord.jpeg");
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position-y: 70px;
+    background-position-x: center;
+    text-align: center;
+}
+
+#b4 {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    background-image: url("../bilder/kaffeplante.jpg");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position-y: 70px;
+    background-position-x: center;
+    text-align: center;
+}
+
+
+button {
+    position: relative;
+    width: 50px;
+    height: 20px;
+    background-image: linear-gradient(to bottom, #69a442, white);
+    border: none;
+    border-radius: 30px;
+}
+
+#medlem {
+    position: absolute;
+    padding: 20px;
+    width: 100px;
+    background-color: #69a442;
+    font-size: 1.2em;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#medlem:hover {
+    box-shadow: 3px 3px 3px #424242; 
+}
+ 
+#medlem:active {
+    transform: translate(2px,2px); 
+    box-shadow: none; 
+}
+ 
+#medlem.showing {
+    background: white;
+    color:#1545AE;
+}
