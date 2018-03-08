@@ -1,0 +1,57 @@
+#nettbutikk {
+    background-color: white;
+    margin: 30px;
+    font-family: 'URW Alternate Gothic W01 3',Arial Black, Helvetica, sans-serif;
+}
+
+#varer {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-auto-rows: 300px;
+    grid-column-gap: 100px;
+    padding: 30px;
+    grid-column-gap: 120px;
+}
+
+#varer div {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    width: 300px;
+}
+
+#nettbutikk b {
+    color: #c6006f;
+    font-size: 1.5em;
+}
+
+#varer span {
+    position: relative;
+    top: 180px;
+    font-size: 1.2em;
+}
+
+#varer div:nth-of-type(1) {
+    background-image: url("../bilder/geit.jpeg");
+}
+
+#varer div:nth-of-type(2) {
+    background-image: url("../bilder/kylling.jpeg");
+}
+
+#varer div:nth-of-type(3) {
+    background-image: url("../bilder/barneekteskap.jpeg");
+}
+
+#varer div:nth-of-type(4) {
+    background-image: url("../bilder/stemme.jpeg");
+}
+
+#varer div:nth-of-type(5) {
+    background-image: url("../bilder/skoleplass.jpeg");
+}
+
+#varer div:nth-of-type(6) {
+    background-image: url("../bilder/trygghet.jpeg");
+}
+

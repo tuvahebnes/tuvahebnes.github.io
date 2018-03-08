@@ -1,0 +1,46 @@
+body {
+    background-color: #c6006f;
+}
+
+#login {
+    background-color: whitesmoke;
+    position: absolute;
+    width: 30vw;
+    height: 40vh;
+    text-align: center;
+    top: 30vh;
+    left: 35vw;
+}
+
+
+
+button {
+    position: relative;
+    background-color: #c6006f;
+    width: 25vw;
+    height: 40px;
+    font-size: 1.5em;
+    color: whitesmoke;
+    top: 30px;
+}
+
+#logo {
+    
+    background-image: url("../bilder/logos.png");
+    width: 100px;
+    height: 200px;
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+
+img {
+    position: absolute;
+    top: 10vh;
+    left: 47vw;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    font-size: 1.2em;
+}

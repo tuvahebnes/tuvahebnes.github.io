@@ -1,0 +1,10 @@
+#frame {
+    position: absolute;
+    display: grid;
+    width: calc(200px * 8)
+}
+
+#box { 
+    position: relative;
+    overflow: hidden;
+}

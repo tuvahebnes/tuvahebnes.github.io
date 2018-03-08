@@ -1,0 +1,179 @@
+body {
+    background-color: #c6006f;
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    font-family: 'URW Alternate Gothic W01 3',Arial Black, Helvetica, sans-serif;
+    
+}
+
+#header h1 {
+    font-size: 4em;
+    text-align: center;
+    position: relative;
+    left: 390px;
+    width: 100px;
+    text-decoration: none;
+}
+
+#header a {
+    position: absolute;
+    top: 35px;
+    left: 275px;
+    width: 100px;
+    height: 115px;
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+
+nav {
+    position: relative;
+    width: 100vw;
+    height: 35px;
+    background-color: #ffffff;
+    font-size: 1.3em;
+}
+
+nav a {
+    padding: 20px;
+    text-decoration: none;
+    color: #c6006f;
+    font-family: 'URW Alternate Gothic W01 3',Arial Black, Helvetica, sans-serif;
+    text-shadow: rgba(0, 0, 0, 0.212) 1px 1px;
+}   
+
+
+main {
+    position: absolute;
+    height: 300px;
+    width: 100vw;
+    background-color: white;
+}
+
+h1 {
+    color: #efefef; 
+    text-shadow: rgba(0, 0, 0, 0.185) 2px 2px;
+}
+
+main h1 {
+    font-size: 2em;
+    font-family: 'URW Alternate Gothic W01 3',Arial Black, Helvetica, sans-serif;
+    color: black;
+    text-shadow: none;
+    text-align: center;
+}
+
+#hva {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-auto-rows: 300px;
+    grid-column-gap: 10px;
+    padding: 30px;
+    grid-column-gap: 100px;
+    position: relative;
+    left: 200px;
+    top: -50px;
+}
+
+#hva div {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 180px;  
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    font-size: 1.2em;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.459);
+    font-family: 'URW Alternate Gothic W01 3',Arial Black, Helvetica, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#hva div:nth-of-type(1) {
+    background-image: url("../bilder/jobb.jpg");
+}
+
+#hva div:nth-of-type(2) {
+    background-image: url("../bilder/skoleplass.jpeg");
+}
+
+#hva div:nth-of-type(3) {
+    background-image: url("../bilder/dialog1.jpg");
+}
+
+#hva div:hover {
+    font-size: 1.5em;
+    box-shadow: 4px 4px 10px black;
+}
+
+.example {
+    position: absolute;
+    width: 200px;
+    right: 350px;
+    top: 3px;
+}
+
+nav span {
+    padding-left: 420px;
+}
+
+#img {
+    position: relative;
+    width: 100vw;
+    height: 30vh;
+    background-image: url("../bilder/head.jpg");
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position-y: -70px;
+    background-position-x: -20px;
+}
+#img span {
+    position: relative;
+    color: white;
+    font-family: 'URW Alternate Gothic W01 3',Arial Black, Helvetica, sans-serif;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.418);
+    font-size: 2.4em;
+    top: 35px;
+    left: 222px;
+    background-color: #c6006f;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#coming {
+    position: relative;
+    top: 50px;
+    left: 40vw;
+    height: 50px;
+    width: 20vw;
+    height: 5vh;
+    background-color: white;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: 'URW Alternate Gothic W01 3',Arial Black, Helvetica, sans-serif;
+}
+
+#hvorfor {
+    background-color: #c6006f;
+}
+
+footer {
+    position: relative;
+    width: 100vw;
+    background-color: #c6006f;
+    top: 300px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+
+}
+
+

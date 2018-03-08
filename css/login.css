@@ -1,0 +1,23 @@
+body {
+    background-color: #c6006f;
+}
+
+#login {
+    background-color: whitesmoke;
+    position: relative;
+    width: 30vw;
+    height: 50vh;
+    text-align: center;
+    top: 25vh;
+    left: 35vw;
+}
+
+button {
+    position: relative;
+    background-color: #c6006f;
+    width: 25vw;
+    height: 40px;
+    font-size: 1.5em;
+    color: whitesmoke;
+    top: 150px;
+}

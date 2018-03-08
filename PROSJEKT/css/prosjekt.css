@@ -1,0 +1,66 @@
+body {
+    background-color: #c6006f;
+}
+
+header {
+    font-family: 'URW Alternate Gothic W01 3',Arial Black, Helvetica, sans-serif;
+}
+
+header h1 {
+    font-size: 4em;
+    text-align: center;
+    position: relative;
+    padding-left: 150px;
+}
+
+nav {
+    position: relative;
+    width: 100vw;
+    height: 35px;
+    background-color: #ffffff;
+    font-size: 1.3em;
+}
+
+a {
+    padding: 20px;
+    text-decoration: none;
+    color: #c6006f;
+    font-family: 'URW Alternate Gothic W01 3',Arial Black, Helvetica, sans-serif;
+    text-shadow: rgba(0, 0, 0, 0.212) 1px 1px;
+}   
+
+nav span {
+    padding-left: 350px;
+}
+
+header div {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url("../bilder/logo.png");
+}
+
+main {
+    text-align: center;
+}
+
+h1 {
+    color: #efefef; 
+    text-shadow: rgba(0, 0, 0, 0.185) 2px 2px;
+}
+
+main h1 {
+    font-size: 2em;
+    font-family: 'URW Alternate Gothic W01 3',Arial Black, Helvetica, sans-serif;
+}
+
+header div {
+    position: absolute;
+    top: 40px;
+    left: 275px;
+    background-image: url("../bilder/logos.png");
+    width: 100px;
+    height: 200px;
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
