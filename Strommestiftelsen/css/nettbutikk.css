@@ -1,0 +1,137 @@
+#vare {
+    position: relative;
+    font-size: 1.1em;
+    padding: 35px;
+}
+
+#liste {
+    display: grid;
+    grid-template-columns: 280px 280px 280px 280px;
+    grid-auto-rows: 200px;
+    grid-column-gap: 15px;
+    grid-gap: 30px;
+    width: 90vw;
+    height: 50vh;
+}
+
+#liste div {
+    background-color: white;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#vare i {
+    color: #c6006f;
+    font-size: 1.3em;
+}
+
+#liste span {
+    background-color: white;
+    padding: 6px;
+}
+
+#liste div:nth-of-type(1) {
+    background-image: url("../bilder/geit.jpeg");
+    background-size: cover;
+}
+
+#liste div:nth-of-type(2) {
+    background-image: url("../bilder/kylling.jpeg");
+    background-size: cover;
+}
+
+#liste div:nth-of-type(3) {
+    background-image: url("../bilder/barneekteskap.jpeg");
+    background-size: cover;
+}
+
+#liste div:nth-of-type(4) {
+    background-image: url("../bilder/stemme.jpeg");
+    background-size: cover;
+}
+
+#animasjon {
+    position: absolute;
+    top: 500px;
+}
+
+#person {
+    position: absolute;
+    left: 30px;
+    width: 112px;
+    height: 112px;
+    background-image: url("../bilder/walking.png");
+    background-position-x: 0;
+    background-position-y: calc(-112px * 2);
+    animation: step 2s steps(8) infinite,
+    walk 20s linear forwards;
+}
+
+@keyframes step {
+    100% {background-position-x: calc(-112px * 8);}
+}
+
+@keyframes walk {
+    100% {left: 1100px;}
+}
+
+#kurv {
+    position: absolute;
+    left: 30px;
+    margin-left: 70px;
+    top: 30px;
+    width: 80px;
+    height: 80px;
+    background-image: url("../bilder/cart.png");
+    background-size: cover;
+    animation: walk 20s linear forwards;
+}
+
+#geit {
+    position: absolute;
+    left: 250px;
+    height: 70px;
+    width: 70px;
+    top: -130px;
+    background-image: url("../bilder/goat.gif");
+    background-size: cover;
+    animation: down 500ms 2s forwards,
+    sit 17.5s 2.5s linear forwards;
+}
+
+@keyframes down {
+    100% {top: 0;}
+}
+
+#kylling {
+    position: absolute;
+    left: 550px;
+    height: 70px;
+    width: 70px;
+    top: -130px;
+    background-image: url("../bilder/chicken.gif");
+    background-size: cover;
+    animation: down 500ms 8s forwards,
+    sit 11.5s 8.5s linear forwards;
+}
+
+@keyframes sit {
+    100% {left: 1180px;}
+}
+
+#stopp {
+    position: absolute;
+    left: 880px;
+    height: 50px;
+    width: 50px;
+    top: -110px;
+    background-image: url("../bilder/stop.png");
+    background-size: cover;
+    animation: size 1s infinite;
+}
+
+@keyframes size {
+    100% {}
+}
+
+

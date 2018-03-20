@@ -42,27 +42,33 @@ nav a {
     color: #c6006f;
     font-family: 'URW Alternate Gothic W01 3',Arial Black, Helvetica, sans-serif;
     text-shadow: rgba(0, 0, 0, 0.212) 1px 1px;
-}   
+}
+
+nav a:hover {
+    color: black;
+}
 
 
-main {
-    position: absolute;
+section {
+    position: relative;
     height: 300px;
     width: 100vw;
     background-color: white;
+    margin-top: -27px;
 }
 
-h1 {
+#header h1 {
     color: #efefef; 
     text-shadow: rgba(0, 0, 0, 0.185) 2px 2px;
 }
 
-main h1 {
+section h1 {
     font-size: 2em;
     font-family: 'URW Alternate Gothic W01 3',Arial Black, Helvetica, sans-serif;
     color: black;
     text-shadow: none;
     text-align: center;
+    padding-top: 20px;
 }
 
 #hva {
@@ -114,12 +120,12 @@ main h1 {
 .example {
     position: absolute;
     width: 200px;
-    right: 350px;
+    right: 150px;
     top: 3px;
 }
 
 nav span {
-    padding-left: 420px;
+    padding-left: 220px;
 }
 
 #img {
@@ -145,6 +151,28 @@ nav span {
     padding-right: 5px;
 }
 
+#img1 {
+    position: relative;
+    width: 100vw;
+    height: 30vh;
+    background-image: url("../bilder/muligheter.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -390px;
+}
+#img1 span {
+    position: relative;
+    color: white;
+    font-family: 'URW Alternate Gothic W01 3',Arial Black, Helvetica, sans-serif;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.418);
+    font-size: 2.4em;
+    top: 35px;
+    left: 190px;
+    background-color: #c6006f;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 #coming {
     position: relative;
     top: 50px;
@@ -158,6 +186,11 @@ nav span {
     font-family: 'URW Alternate Gothic W01 3',Arial Black, Helvetica, sans-serif;
 }
 
+#coming img {
+    position: relative;
+    top: 30px;
+}
+
 #hvorfor {
     background-color: #c6006f;
 }
@@ -166,7 +199,7 @@ footer {
     position: relative;
     width: 100vw;
     background-color: #c6006f;
-    top: 300px;
+    top: 0;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -176,4 +209,89 @@ footer {
 
 }
 
+#hjelp {
+    position: absolute;
+    width: 50vw;
+    height: 60vh;
+    left: 25vw;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
 
+#hjelp h1 {
+    color: #c6006f;
+    text-shadow: none;
+}
+
+
+main {
+    position: relative;
+    width: 40vw;
+    height: 65vh;
+    left: 30vw;
+    top: 25px;
+    background-color: white;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 10px;
+    font-family: 'URW Alternate Gothic W01 3',Arial Black, Helvetica, sans-serif;
+}
+
+#givernr {
+    width: 250px;
+    height: 40px;
+    font-size: 1.2em;
+    background-color: #c6007049;
+}
+
+#find {
+    width: 220px;
+    height: 30px;
+    font-size: 1em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+svg:nth-of-type(1) {
+    position: absolute;
+    top: 400px;
+    left: 100px;
+}
+
+svg:nth-of-type(2) {
+    position: absolute;
+    top: 400px;
+    right: 70px;
+}
+
+footer div {
+    position: absolute;
+    width: 3vw;
+    height: 3vw;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+footer div:nth-of-type(1) {
+    left: 46vw;
+}
+
+footer div:nth-of-type(2) {
+    left: 51vw;
+}
+
+#resultat {
+    position: relative;
+    top: 50px;
+}
+
+video {
+    position: relative;
+    width: 100vw;
+}
