@@ -23,7 +23,6 @@ button {
 }
 
 #logo {
-    
     background-image: url("../bilder/logos.png");
     width: 100px;
     height: 200px;
@@ -34,7 +33,7 @@ button {
 img {
     position: absolute;
     top: 10vh;
-    left: 47vw;
+    left: 46vw;
 }
 
 input {
