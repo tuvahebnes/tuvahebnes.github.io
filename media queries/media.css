@@ -1,0 +1,108 @@
+:root {
+    --display: grid;
+    --gridlate: repeat(6, 1fr);
+    --marg: 1em;
+    --topmarg: 1em;
+    --width: 200px;
+    --gg:6;
+  }
+  
+  @media all and (max-width: 1450px) {
+    :root {
+      --gridlate: repeat(4, 1fr);
+    }
+  }
+  
+  @media all and (max-width: 950px) {
+    :root {
+      --gridlate: repeat(3, 1fr);
+      --marg: 0.5em;
+    }
+  }
+  
+  @media all and (max-width: 600px) {
+      :root {
+          --gridlate: repeat(2, 1fr);
+          --marg: 0.2em;
+      }
+    }
+  
+  @media all and (max-width: 450px) {
+    :root {
+      --display: flex;
+      --marg:auto;
+      --topmarg: 1em;
+      --width: 300px;
+    }
+  }
+  
+  #main {
+    display: var(--display);
+    grid-template-columns: var(--gridlate);
+    flex-direction: column;
+  }
+  
+#main > div {
+    width: var(--width);
+    height: calc(var(--width) - 50px);
+    border: solid gray 1px;
+    margin: var(--marg);
+    margin-top:var(--topmarg);
+}
+  
+  #main > div:nth-of-type(odd) {
+      background-color: red;
+  }
+
+#main div {
+    background-size: cover;
+}
+
+#main div:nth-child(1) {
+    background-image: url("bilder/1.jpg");
+}
+
+#main div:nth-child(2) {
+    background-image: url("bilder/2.jpg");
+}
+
+#main div:nth-child(3) {
+    background-image: url("bilder/3.jpg");
+}
+
+#main div:nth-child(4) {
+    background-image: url("bilder/4.jpg");
+}
+
+#main div:nth-child(5) {
+    background-image: url("bilder/5.jpg");
+}
+
+#main div:nth-child(6) {
+    background-image: url("bilder/6.jpg");
+}
+
+#main div:nth-child(7) {
+    background-image: url("bilder/jobb.jpg");
+}
+
+#main div:nth-child(8) {
+    background-image: url("bilder/look.jpg");
+}
+
+#main div:nth-child(9) {
+    background-image: url("bilder/muligheter.jpg");
+}
+
+#main div:nth-child(10) {
+    background-image: url("bilder/stemme.jpeg");
+}
+
+#main div:nth-child(11) {
+    background-image: url("bilder/skoleplass.jpeg");
+}
+
+#main div:nth-child(12) {
+    background-image: url("bilder/trygghet.jpeg");
+}
+
